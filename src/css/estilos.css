@@ -1,0 +1,114 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../imagem/bg-repeat.jpg);
+    background-repeat:repeat-x;
+    background-size: contain;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto-formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.layout {
+    width: 300px;
+    color: #FFFFFF;
+}
+
+.titulo {
+    
+    font-weight: 900;
+    font-size: 2rem;
+    line-height: 2.3rem;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.descricao {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+}
+
+.formulario {
+    width: 340px;
+    height: 378px;
+    background-color: #FFFFFF;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.span {
+    color: red;
+    height: 1px;
+    margin-top: -2rem;
+    display: none;
+}
+
+.inputs {
+    padding: 8px 5px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    color: #000000;
+    font-size: 15px;
+    font-weight: 400;
+    width: 100%;
+}
+
+button {
+    padding: 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    background-color: #3CCC87;
+    font-size: 15px;
+    font-weight: 700;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.aviso{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #000;
+    height: 1px;
+    margin-top: -5px;
+    
+}
+
+button:hover {
+    background-color: #00C22B;
+}
+
+.erro {
+    border: 1px solid #F52E2E;
+}
+
+.validado {
+    border: 1px solid #00C22B;
+}
+
+.mostrar {
+    display: block;
+}
